@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import kotlinx.android.synthetic.main.fragment_mypage.*
 
 class MyPageFragment : Fragment() {
 
