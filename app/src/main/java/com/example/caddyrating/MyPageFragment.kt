@@ -27,7 +27,7 @@ class MyPageFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        back_button.setOnClickListener{
+        back_button.setOnClickListener {
             Log.d(TAG, "BackButton pressed!")
             fragmentManager?.popBackStack()
         }
