@@ -5,5 +5,22 @@
 
     <string name="button_logout">ログアウト</string>
     <string name="button_opinions_golf_course">ゴルフ場へのご意見</string>
-    <string name="button_back">BACK</string>Back
+    <string name="button_back">BACK</string>
+
+    <string name="text_name">名前</string>
+    <string name="display_caddy_name">キャディ　たぬき</string>
+    <string name="text_birthday">生年月日</string>
+    <string name="display_birthday">1990/10/13</string>
+    <string name="text_workable_area">勤務可能なエリア</string>
+    <string name="display_workable_area">千葉県</string>
+    <string name="text_evaluation_item1">評価項目1</string>
+    <string name="display_evaluation_item1">⭐️⭐️⭐️⭐️⭐️</string>
+    <string name="display_evaluation_item2">⭐️⭐️⭐️</string>
+    <string name="text_evaluation_item2">評価項目2</string>
+    <string name="text_evaluation_average">評価平均</string>
+    <string name="display_evaluation_average">⭐️⭐️⭐️⭐️</string>
+    <string name="text_rank">ランク</string>
+    <string name="display_rank">A</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>Back
 </resources>

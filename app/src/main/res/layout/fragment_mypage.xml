@@ -37,7 +37,7 @@
         android:id="@+id/text_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="名前"
+        android:text="@string/text_name"
         app:layout_constraintTop_toBottomOf="@+id/profilePhoto"
         android:layout_marginTop="50dp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -48,8 +48,8 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="キャディ　たぬき"
-        android:layout_marginRight="100dp"
+        android:text="@string/display_caddy_name"
+        android:layout_marginEnd="100dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/text_name"
         />
@@ -58,7 +58,7 @@
         android:id="@+id/text_birthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="生年月日"
+        android:text="@string/text_birthday"
         app:layout_constraintLeft_toLeftOf="@+id/text_name"
         app:layout_constraintTop_toBottomOf="@+id/text_name"/>
 
@@ -66,8 +66,8 @@
         android:id="@+id/birthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1990/10/13"
-        android:layout_marginRight="100dp"
+        android:text="@string/display_birthday"
+        android:layout_marginEnd="100dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/text_birthday"
         />
@@ -76,7 +76,7 @@
         android:id="@+id/text_workable_area"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="勤務可能なエリア"
+        android:text="@string/text_workable_area"
         app:layout_constraintLeft_toLeftOf="@+id/text_name"
         app:layout_constraintTop_toBottomOf="@+id/birthday"/>
 
@@ -84,8 +84,8 @@
         android:id="@+id/workable_area"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="千葉県"
-        android:layout_marginRight="100dp"
+        android:text="@string/display_workable_area"
+        android:layout_marginEnd="100dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/text_workable_area"
         />
@@ -94,7 +94,7 @@
         android:id="@+id/text_evaluation_item1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="評価項目1"
+        android:text="@string/text_evaluation_item1"
         app:layout_constraintLeft_toLeftOf="@+id/text_name"
         app:layout_constraintTop_toBottomOf="@+id/text_workable_area"/>
 
@@ -102,8 +102,8 @@
         android:id="@+id/evaluation_item1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="⭐️⭐️⭐️⭐️⭐️"
-        android:layout_marginRight="100dp"
+        android:text="@string/display_evaluation_item1"
+        android:layout_marginEnd="100dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/text_evaluation_item1"
         />
@@ -112,7 +112,7 @@
         android:id="@+id/text_evaluation_item2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="評価項目2"
+        android:text="@string/text_evaluation_item2"
         app:layout_constraintLeft_toLeftOf="@+id/text_name"
         app:layout_constraintTop_toBottomOf="@+id/text_evaluation_item1"/>
 
@@ -120,8 +120,8 @@
         android:id="@+id/evaluation_item2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="⭐️⭐️⭐️"
-        android:layout_marginRight="100dp"
+        android:text="@string/display_evaluation_item2"
+        android:layout_marginEnd="100dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/text_evaluation_item2"
         />
@@ -130,7 +130,7 @@
         android:id="@+id/text_evaluation_average"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="評価平均"
+        android:text="@string/text_evaluation_average"
         app:layout_constraintLeft_toLeftOf="@+id/text_name"
         app:layout_constraintTop_toBottomOf="@+id/text_evaluation_item2"/>
 
@@ -138,8 +138,8 @@
         android:id="@+id/evaluation_average"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="⭐️⭐️⭐️⭐️"
-        android:layout_marginRight="100dp"
+        android:text="@string/display_evaluation_average"
+        android:layout_marginEnd="100dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/text_evaluation_average"
         />
@@ -148,11 +148,21 @@
         android:id="@+id/text_rank"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ランク"
+        android:text="@string/text_rank"
         app:layout_constraintLeft_toLeftOf="@+id/text_name"
         app:layout_constraintTop_toBottomOf="@+id/text_evaluation_average"
         tools:layout_editor_absoluteY="331dp"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/display_rank"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_evaluation_average"
+        />
 
     <Button
         android:id="@+id/opinionsGolfCourseButton"
