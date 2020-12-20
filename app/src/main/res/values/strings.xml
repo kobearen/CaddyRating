@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CaddyRating</string>
     <string name="title_name_mypage">マイページ</string>
-
+    <string name="title_send_opinion">ご意見送信画面</string>
 
     <string name="button_logout">ログアウト</string>
     <string name="button_opinions_golf_course">ゴルフ場へのご意見</string>
@@ -21,6 +21,8 @@
     <string name="display_evaluation_average">⭐️⭐️⭐️⭐️</string>
     <string name="text_rank">ランク</string>
     <string name="display_rank">A</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>Back
+    <string name="button_send_opinion">送信</string>
+    <string name="text_opinion">ご意見</string>
+    <string name="edit_opinion">こちらにご自由にご意見をどうぞ</string>
+
 </resources>
