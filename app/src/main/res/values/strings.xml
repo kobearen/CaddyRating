@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">CaddyRating</string>
-    <string name="title_my_page">Welcome to My Page</string>
+    <string name="title_name_mypage">マイページ</string>
+
+
+    <string name="button_logout">ログアウト</string>
+    <string name="button_opinions_golf_course">ゴルフ場へのご意見</string>
+    <string name="button_back">BACK</string>Back
 </resources>
