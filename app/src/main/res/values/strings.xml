@@ -2,10 +2,12 @@
     <string name="app_name">CaddyRating</string>
     <string name="title_name_mypage">マイページ</string>
     <string name="title_send_opinion">ご意見送信画面</string>
+    <string name="title_send_complete">送信完了画面</string>
 
     <string name="button_logout">ログアウト</string>
     <string name="button_opinions_golf_course">ゴルフ場へのご意見</string>
     <string name="button_back">BACK</string>
+    <string name="button_to_my_page">マイページへ</string>
 
     <string name="text_name">名前</string>
     <string name="display_caddy_name">キャディ　たぬき</string>
@@ -24,5 +26,7 @@
     <string name="button_send_opinion">送信</string>
     <string name="text_opinion">ご意見</string>
     <string name="edit_opinion">こちらにご自由にご意見をどうぞ</string>
+    <string name="text_send_day">送信年月日</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
