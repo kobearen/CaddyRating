@@ -13,10 +13,6 @@ import kotlinx.android.synthetic.main.evaluationinput.*
 
 class EvaluationInput : Fragment() {
 
-    companion object {
-        private const val TAG = "FirstFragment"
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -25,11 +21,9 @@ class EvaluationInput : Fragment() {
         return inflater.inflate(R.layout.evaluationinput, container, false)
     }
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         button_toMypage.setOnClickListener{
-            Log.d(TAG, "tos MyPageButton pressed!")
             val secondFragment = MyPageFragment()
             val fragmentTransaction = fragmentManager?.beginTransaction()
             fragmentTransaction?.addToBackStack(null)
