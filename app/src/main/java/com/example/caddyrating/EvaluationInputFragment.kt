@@ -9,6 +9,7 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.example.caddyrating.MyPageFragment
 import com.example.caddyrating.R
+import kotlinx.android.synthetic.main.evaluationinput.*
 
 class EvaluationInput : Fragment() {
 
@@ -27,8 +28,7 @@ class EvaluationInput : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val toSecondButton = view.findViewById<Button>(R.id.to_second_fragment_button)
-        toSecondButton.setOnClickListener{
+        button_toMypage.setOnClickListener{
             Log.d(TAG, "tos MyPageButton pressed!")
             val secondFragment = MyPageFragment()
             val fragmentTransaction = fragmentManager?.beginTransaction()
