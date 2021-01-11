@@ -24,7 +24,7 @@ class FirstFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        cadyButton.setOnClickListener {
+        button_cady.setOnClickListener {
             val evaluationInput = EvaluationInput()
             val fragmentTransaction = fragmentManager?.beginTransaction()
             fragmentTransaction?.addToBackStack(null)
