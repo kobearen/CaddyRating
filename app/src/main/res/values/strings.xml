@@ -4,6 +4,10 @@
     <string name="title_name_mypage">マイページ</string>
     <string name="title_send_opinion">ご意見送信画面</string>
     <string name="title_send_complete">送信完了画面</string>
+    <string name="title_evaluationInput">評価入力画面</string>
+
+    <string name="subtitle_evaluation_golf_place">ゴルフ場への評価</string>
+    <string name="subtitle_evaluation_golfer">ゴルファーへの評価</string>
 
     <string name="button_logout">ログアウト</string>
     <string name="button_opinions_golf_course">ゴルフ場へのご意見</string>
@@ -31,6 +35,16 @@
     <string name="text_opinion">ご意見</string>
     <string name="edit_opinion">こちらにご自由にご意見をどうぞ</string>
     <string name="text_send_day">送信年月日</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_inputday">入力年月日</string>
+    <string name="text_workingDay">出勤日</string>
+    <string name="text_evaluation_golfer_A">ゴルファーAの評価</string>
+    <string name="text_evaluation_golfer_B">ゴルファーBの評価</string>
+    <string name="text_evaluation_golfer_C">ゴルファーCの評価</string>
+    <string name="text_evaluation_golfer_D">ゴルファーDの評価</string>
+    <string name="display_evaluation_golfer_A">⭐️⭐️⭐️⭐️⭐</string>
+    <string name="display_evaluation_golfer_B">⭐</string>
+    <string name="display_evaluation_golfer_C">⭐️⭐️⭐️⭐️</string>
+    <string name="display_evaluation_golfer_D">⭐️⭐️⭐</string>
+
 
 </resources>
