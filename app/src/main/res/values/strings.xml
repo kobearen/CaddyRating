@@ -17,6 +17,7 @@
     <string name="button_cady">キャディ</string>
     <string name="button_golfer">ゴルファー</string>
     <string name="button_golf_place">ゴルフ場関係者</string>
+    <string name="button_home">HOME(開発用)</string>
 
     <string name="text_name">名前</string>
     <string name="display_caddy_name">キャディ　たぬき</string>

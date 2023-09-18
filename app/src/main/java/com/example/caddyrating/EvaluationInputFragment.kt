@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import com.example.caddyrating.FirstFragment
 import com.example.caddyrating.MyPageFragment
 import com.example.caddyrating.R
 import kotlinx.android.synthetic.main.evaluationinput.*
@@ -28,6 +29,14 @@ class EvaluationInput : Fragment() {
             val fragmentTransaction = fragmentManager?.beginTransaction()
             fragmentTransaction?.addToBackStack(null)
             fragmentTransaction?.replace(R.id.fragment_container, secondFragment)
+            fragmentTransaction?.commit()
+        }
+
+        homeButton.setOnClickListener{
+            val firstFragment = FirstFragment()
+            val fragmentTransaction = fragmentManager?.beginTransaction()
+            fragmentTransaction?.addToBackStack(null)
+            fragmentTransaction?.replace(R.id.fragment_container, firstFragment)
             fragmentTransaction?.commit()
         }
     }
