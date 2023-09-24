@@ -31,5 +31,13 @@ class FirstFragment : Fragment() {
             fragmentTransaction?.replace(R.id.fragment_container, evaluationInput)
             fragmentTransaction?.commit()
         }
+
+        button_golfer.setOnClickListener{
+            val evaluationInputFromGolferFragment = EvaluationInputFromGolferFragment()
+            val fragmentTransaction = fragmentManager?.beginTransaction()
+            fragmentTransaction?.addToBackStack(null)
+            fragmentTransaction?.replace(R.id.fragment_container, evaluationInputFromGolferFragment)
+            fragmentTransaction?.commit()
+        }
     }
 }
